@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thought & Memory</title>
+<link type="text/css" rel="stylesheet" href="css/titles.css">
+<link type="text/css" rel="stylesheet" href="css/theme.css">
+<script charset="utf-8" type="text/javascript" src="js/jquery.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/greens.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/aboutUs.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+    <div id="header">
+<img width="100%" height="100%" src="img/formalbanquet.jpg" />
+    </div>
+    <div id="content" style="z-index:0;">
+<!-- 标题栏   -->
+<div id="titles">
+<div class="content_left">
+    <div class="title"><span>Dishes</span></div>
+    <div class="left_nav">  
+        <ul>
+            <li>
+                <div class="t"><i></i><a href="#">recommendation</a></div>
+                <div class="txt">
+                    <p><a href="#" onClick="selectstyleofcooking(1,0)">Today the preferential</a></p>
+                    <p><a href="#" onClick="selectstyleofcooking(2,0)">A week sentiment</a></p>
+                </div>
+            </li>
+            <li>
+                <div class="t"><i></i><a href="#">The Chinese cuisine</a></div>
+                <div class="txt">
+                    <p><a href="#" onClick="selectstyleofcooking(0,0)">Sichuan cuisine</a></p>
+                    <p><a href="#" onClick="selectstyleofcooking(0,1)">Shandong cuisine</a></p>
+                </div>
+            </li>
+            <li>
+                <div class="t"><i></i><a href="#" onclick="aboutus()">AboutUs</a></div>
+            </li>
+            <li>
+                <div class="t"><i></i><a href="#" onclick="contactus()">ContactUs</a></div>
+            </li>
+        </ul> 
+    </div>
+</div>
+<script charset="utf-8" type="text/javascript" src="js/titles.js"></script>
+</div>
+<div id="rightcontents">
+        <div id="contents">
+
+        </div>
+        <div style="height:80px;"></div>
+        </div>
+    </div>
+    <div id="footer">
+    <span>
+    Do you like our restraurant?
+    </span>
+    <span style="position:relative;top:9px;left:10px;">
+    <img src="img/good.png" title="like" onClick="islike()"/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="img/bad.png" title="dislike" onClick="islike()"/>
+    </span>
+    </div>
+
+        <div class="showinfo" id="showinfoid"> 
+            
+
+        </div>
+
+</body>
+</html>
